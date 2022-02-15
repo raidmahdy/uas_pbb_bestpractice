@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_frag"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.yusuf.platform.navdrawer.view.HomeFragment"
+        android:label="Hymart"
+        tools:layout="@layout/fragment_home"/>
+
+    <activity
+        android:id="@+id/makanan"
+        android:name="raidmahdy.platform.bestpractice.Makanan"
+        android:label="Makanan"
+        tools:layout="@layout/activity_makanan"/>
+
+    <activity
+        android:id="@+id/rumah"
+        android:name="raidmahdy.platform.bestpractice.Rumah"
+        android:label="Rumah"
+        tools:layout="@layout/activity_rumah"/>
+
+    <activity
+        android:id="@+id/ibu"
+        android:name="raidmahdy.platform.bestpractice.IbuAnak"
+        android:label="Ibu dan Anak"
+        tools:layout="@layout/activity_ibu_anak"/>
+
+    <activity
+        android:id="@+id/kesehatan"
+        android:name="raidmahdy.platform.bestpractice.Kesehatan"
+        android:label="Kesehatan"
+        tools:layout="@layout/activity_kesehatan"/>
+</navigation>

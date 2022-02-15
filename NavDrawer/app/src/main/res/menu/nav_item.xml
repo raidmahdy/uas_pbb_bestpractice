@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Menu">
+        <menu>
+            <item
+                android:id="@+id/makanan"
+                android:title="Makanan dan Minuman"
+                android:icon="@drawable/fastfood"
+                />
+            <item
+                android:id="@+id/rumah"
+                android:title="Rumah dan Dapur"
+                android:icon="@drawable/ic_home"
+                />
+            <item
+                android:id="@+id/ibu"
+                android:title="Ibu dan Anak"
+                android:icon="@drawable/baby"
+                />
+            <item
+                android:id="@+id/kesehatan"
+                android:title="kesehatan dan Kecantikan"
+                android:icon="@drawable/health"
+                />
+        </menu>
+
+    </item>
+
+</menu>
